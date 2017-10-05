@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "ComfortaaRegular";
+  src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot");
+  src: url("../fonts/ComfortaaRegular/ComfortaaRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ComfortaaRegular/ComfortaaRegular.woff") format("woff"), url("../fonts/ComfortaaRegular/ComfortaaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+header {
+  padding-top: 35px;
+  background: rgba(255, 255, 255, 0.24);
+  padding-right: 125px;
+  padding-left: 125px;
+  height: 75px;
+  margin-bottom: -120px;
+  position: relative;
+}
+header .im_co {
+  float: left;
+}
+header .tel {
+  margin-top: -10px;
+  float: right;
+  text-align: right;
+}
+header .tel ul {
+  float: right;
+}
+header .tel a {
+  text-decoration: none;
+  color: #665a56;
+  font-size: 13pt;
+}
+header .tel .mail {
+  margin-top: 15px;
+}
+header .menu {
+  margin-top: 5px;
+  float: left;
+  margin-left: 15px;
+}
+header .menu a {
+  float: none;
+  text-decoration: none;
+  color: #665a56;
+  font-size: 15pt;
+}
+header .menu a:hover {
+  color: #85334a;
+}
+header .menu li {
+  margin-left: 20px;
+  display: inline;
+}
+body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1366px;
+  text-align: center;
+  font-family: "ComfortaaRegular";
+  position: relative;
+}
+body .baner {
+  height: 575px;
+  z-index: 2;
+  background: url(img/bg.png);
+  padding-top: 320px;
+  text-align: center;
+}
+body .baner .next {
+  margin-left: -750px;
+  margin-top: 125px;
+  float: left;
+}
+body .baner .back {
+  margin-right: 150px;
+  margin-top: 125px;
+  float: right;
+}
+body .baner .col {
+  display: block;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 700px;
+}
+body .baner h1 {
+  height: 100px;
+  width: 800px;
+  float: left;
+  text-align: center;
+  margin-left: 150px;
+  font-size: 45pt;
+  color: #85334a;
+}
+body .baner button {
+  float: left;
+  margin-top: 200px;
+  margin-left: -550px;
+  font-size: 12pt;
+  height: 45px;
+  width: 250px;
+  color: #85334a;
+  background: none;
+  border: solid 1px #85334a;
+  border-radius: 5px;
+}
+body .baner button:hover {
+  background: #85334a;
+  color: white;
+  border: solid 1 px #ff0000;
+}
+body .product {
+  text-align: center;
+  background: url(img/bg_product.png);
+}
+body .product h2 {
+  margin-top: 75px;
+  color: #85334a;
+  font-size: 21pt;
+}
+body .product hr {
+  background: #85334a;
+  height: 2px;
+  width: 90px;
+}
+body .product p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 13pt;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .product button {
+  margin-top: 50px;
+  font-size: 12pt;
+  height: 45px;
+  width: 250px;
+  color: #85334a;
+  background: none;
+  border: solid 1px #85334a;
+  border-radius: 5px;
+}
+body .product button:hover {
+  background: #85334a;
+  color: white;
+  border: solid 1 px #ff0000;
+  border-radius: 10px;
+}
+body .product .all {
+  text-align: center;
+}
+body .product .all .contein {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 450px;
+  width: 250px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+body .product .all .contein:hover {
+  box-shadow: 0 0 10px rgba(206, 42, 42, 0.5);
+}
+body .info {
+  text-align: center;
+}
+body .info #number {
+  color: #85334a;
+  font-size: 0.8em;
+  float: right;
+}
+body .info .mr {
+  margin-right: 125px;
+}
+body .info a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #85334a;
+  float: right;
+}
+body .info #cont .block_inf {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 150px;
+  display: inline-block;
+  height: 230px;
+  width: 450px;
+  background: url(img/bl_tw.png);
+}
+body .info #cont .mr {
+  margin-right: -100px;
+}
+body .info h2 {
+  margin-top: 75px;
+  color: #85334a;
+  font-size: 21pt;
+}
+body .info hr {
+  background: #85334a;
+  height: 2px;
+  width: 90px;
+}
+body .reserv {
+  margin-top: 75px;
+  background: url(img/bg_lasst.png);
+  background-repeat: no-repeat;
+  height: 550px;
+}
+body .reserv .inp {
+  text-align: center;
+  float: right;
+  width: 700px;
+}
+body .reserv .inp input {
+  outline: none;
+  background: none;
+  margin-right: 170px;
+  border: solid 0px;
+  margin-top: 135px;
+  border-bottom: solid 1px rgba(64, 64, 64, 0.54);
+}
+body .reserv .inp .inp_mess {
+  width: 350px;
+}
+body footer {
+  background: url(img/bg_f.png);
+  height: 200px;
+  margin-top: -5px;
+  padding-top: 30px;
+  padding-right: 125px;
+  padding-left: 125px;
+}
+body footer img {
+  float: left;
+  margin-right: 35px;
+}
+body footer .tel {
+  color: white;
+  margin-top: 10px;
+  float: right;
+  text-align: right;
+}
+body footer .tel ul {
+  float: right;
+}
+body footer .tel a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13pt;
+}
+body footer .tel a:hover {
+  color: white; 
+}
+body footer .tel .mail {
+  margin-top: 15px;
+}
+body footer .menu {
+  margin-top: 35px;
+  float: left;
+}
+body footer .menu a {
+  float: none;
+  text-decoration: none;
+  color: white;
+  font-size: 15pt;
+}
+body footer .menu li {
+  margin-left: 20px;
+  display: inline;
+}
+@media only screen and (max-width: 1185px) {
+  body header {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  body header .tel {
+    margin-top: 0px;
+  }
+  body .baner h1 {
+    font-size: 35pt;
+    width: 500px;
+  }
+  body .baner .next {
+    margin-left: -900px;
+    margin-top: 125px;
+    float: left;
+  }
+  body .baner button {
+    margin-left: -400px;
+  }
+  body .baner .back {
+    margin-right: 25px;
+    margin-top: 125px;
+    float: right;
+  }
+}

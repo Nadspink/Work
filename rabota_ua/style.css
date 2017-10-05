@@ -1,0 +1,653 @@
+*{
+    color: #8c9299;
+}
+.header {
+    font-family: 'Open Sans Semibold', arial;
+    width: 1070px;
+    height: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    background: white;
+}
+
+.Logo {
+    float: left;
+    margin-top: 30px;
+}
+
+.block-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 570px;
+    position: fixed;
+    right: 135px;
+    color: #484c55;
+}
+
+.menu_block {
+    display: inline-block;
+    height: 95px;
+    width: 91px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 15pt;
+}
+
+.banner {
+    font-family: 'Open Sans Semibold', arial;
+    background: url(img/ban.png) #49cbcd;
+    width: 100%;
+    height: 560px;
+    text-align: center;
+    
+}
+
+.This {
+    font-size: 63pt;
+    color: white;
+    padding-top: 140px;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.41);
+}
+
+.lorem {
+    margin-top: 40px;
+    color: white;
+    font-size: 23pt;
+    text-shadow: 0px 2px rgba(229, 141, 20, 0.62);
+}
+
+.button_mor {
+    border-radius: 5px;
+    background: none;
+    border: 3px solid white;
+    height: 65px;
+    width: 225px;
+    margin-top: 60px;
+    color: white;
+    font-size: 26pt;
+    margin-top: 60px;
+}
+
+.left_next {
+    float: left;
+    margin-top: -15px;
+    margin-left: 15px;    
+}
+
+.right_next {
+    float: right;
+    margin-top: -15px;
+    margin-right: 15px;
+}
+
+.team {
+    font-family: 'Open Sans Semibold', arial;
+    height: 700px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.box_team {
+    display: inline-block;
+    margin-top: 100px;
+    height: 450px;
+    width: 20%;
+    margin-left: 25px;
+    z-index: 1;
+}
+
+.team_h {
+    font-size: 42pt;
+    color: #4e525d;
+}
+
+.elip_h3 {
+    font-size: 19pt;
+    margin-top: 45px;
+}
+
+.elip_p {
+    margin-top: 25px;
+    line-height: 1.3;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+.plans {
+    font-family: 'Open Sans Semibold', arial;
+    height: 735px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 115px;
+    text-align: center;
+    background: #fff;
+}
+
+.plans:hover {
+    background: #f1f1f1;
+}
+
+.block_byu {
+    height: 525px;
+    width: 30%;
+    margin-left: 30px;
+    display: inline-block;
+    float: left;
+    border: 1px solid #ecf0f1;
+}
+
+.head_bleock {
+    height: 70px;
+    background: #485460;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    font-size: 26pt;
+}
+
+.price {
+    height: 70px;
+    line-height: 70px;
+    font-size: 20pt;
+    color: #485460;
+    background: #f8f9fb;
+}
+
+.inf {
+    height: 45px;
+    line-height: 45px;
+    color: #8c9299;
+    margin-top: 1px;
+    border: 1px solid #ecf0f1;
+    background: #fff;
+    font-size: 13pt;
+}
+
+.border_top {
+    border-top: 0px;
+}
+
+.block_byu_now {
+    height: 100px;
+    background: #f8f9fb;
+    align-content: center;
+    text-align: center;
+    line-height: 100px;
+}
+
+.butt_byu_now {
+    background: #788492;
+    height: 40px;
+    width: 160px;
+    color: white;
+    font-size: 14pt;
+    border: none;
+    border-radius: 3px;
+}
+
+.conract_us {
+    font-family: 'Open Sans Semibold', arial;
+    height: 690px;
+    background: url(img/bc.png) rgba(77, 77, 77, 0.92);
+    text-align: center;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.cont_h {
+    padding-top: 90px;
+    font-size: 42pt;
+    color: #fff;
+    width: 500px;
+    display: inline-block;
+}
+
+.block_left {
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.block_right {
+    padding-top: 100px;
+    float: right;
+    width: 50%;
+}
+
+.h5_get {
+    font-size: 24pt;
+    color: white;
+    float: left;
+    color: #ecf0f1;
+}
+
+.p_cont {
+    font-size: 14pt;
+    color: white;
+    float: left;
+    padding-top: 10px;
+    text-align: left;
+    color: #ecf0f1;
+    line-height: 25px;
+    width: 500px;
+}
+
+.soc {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.soc_ul {
+    margin-top: 30px;
+    float: left;
+    width: 500px;
+    text-align: left;
+}
+
+.inf_p {
+    float: left;
+    margin-top: 20px;
+    display: inline;
+    line-height: 30px;
+    text-align: left;
+    color: #bface2;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.top_none {
+    margin-top: 0;
+}
+
+.Name_inp {
+    height: 40px;
+    width: 230px;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 16pt;
+    margin-left: 5px;
+}
+
+.Email_inp {
+    height: 40px;
+    width: 230px;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 16pt;
+    margin-left: 20px;
+}
+
+.messedg_inp {
+    height: 170px;
+    width: 515px;
+    border-radius: 3px;
+    font-size: 16pt;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.buttom_send {
+    float: right;
+    height: 45px;
+    width: 170px;
+    background: #49cbcd;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 22pt;
+    line-height: 45px;
+    margin-top: 30px;
+}
+
+.menu_a {
+    text-decoration: none;
+    color: #484c55;
+    display: inline-block;
+}
+
+.menu_block:hover {
+    background: #f8f9fb;
+    color: #49cbcd;
+    border-bottom: solid 5px;
+}
+
+#dad {
+    height: 70px;
+    background: #485460;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    font-size: 26pt;
+}
+
+#not {
+    background: #788492;
+    height: 40px;
+    width: 160px;
+    color: white;
+    font-size: 14pt;
+    border: none;
+    border-radius: 3px;
+}
+
+#not:hover {
+    background: #49cbcd;
+}
+
+#dad_1 {
+    height: 70px;
+    background: #485460;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    font-size: 26pt;
+}
+
+#not_1 {
+    background: #788492;
+    height: 40px;
+    width: 160px;
+    
+    font-size: 14pt;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#not_1:hover {
+    background: #49cbcd;
+}
+
+#dad_2 {
+    height: 70px;
+    background: #485460;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    font-size: 26pt;
+}
+
+#not_2 {
+    
+    background: #788492;
+    height: 40px;
+    width: 160px;
+    
+    font-size: 14pt;
+    border: none;
+    border-radius: 3px;
+}
+
+#not_2:hover {
+    background: #49cbcd;
+}
+
+
+
+
+@media only screen and (max-width: 1199px) {
+    .elip_h3 {
+        font-size: 13pt;
+        margin-top: 45px;
+    }
+    .elip_h5 {
+        font-size: 11px;
+    }
+    .block_byu {
+        margin-left: 10px;
+    }
+    .Email_inp {
+        margin-left: 5px;
+    }
+    .buttom_send {
+        width: 300px;
+        float: left;
+        margin-left: 5px;
+    }
+    .p_cont {
+        width: 250px;
+    }
+    .menu {
+        width: 570px;
+        right: 10px;
+    }
+    .header {
+        width: 700px;
+        padding-right: 0px;
+    }
+    .messedg_inp {
+        width: 315px;
+    }
+    .buttom_send {
+        width: 220px;
+        margin-left: 125px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 1050px) {
+    .box_team {
+        width: 45%;
+    }
+    .team {
+        height: 1300px;
+    }
+    .header {
+        width: 450px;
+        padding-right: 0px;
+    }
+    .messedg_inp {
+        width: 230px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 970px) {
+    .header {
+        padding-left: 0px;
+    }
+    .inf {
+        font-size: 10pt;
+    }
+    .price {
+        font-size: 20pt;
+    }
+    .buttom_send {
+        width: 220px;
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .team {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .plans {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .conract_us {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .buttom_send {
+        width: 150px;
+        margin-right: 25px;
+        float: right;
+    }
+    .menu_block {
+        font-size: 10pt;
+        width: 70px;
+        margin-top: 25px;
+    }
+    .menu {
+        margin-top: -25px;
+        width: 470px;
+        position: fixed;
+        right: 0px;
+    }
+    .buttom_send {
+        width: 220px;
+        align-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .menu_block {
+        font-size: 7pt;
+        width: 50px;
+    }
+    .menu {
+        width: 350px;
+        position: fixed;
+        right: 10px;
+    }
+    .box_team {
+        width: 35%;
+    }
+    .This {
+        font-size: 45pt;
+    }
+    .lorem {
+        font-size: 15pt;
+        margin-top: 10px;
+    }
+    .Name_inp {
+        width: 130px;
+    }
+    .Email_inp {
+        margin-top: 15px;
+        width: 130px;
+    }
+    .messedg_inp {
+        width: 150px;
+    }
+    p_cont {
+        font-size: 10pt;
+    }
+    .price {
+        font-size: 15pt;
+    }
+    .inf {
+        line-height: 1;
+        padding-top: 10px;
+    }
+    .cont_h {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .menu_block {
+        font-size: 7pt;
+        width: 35px;
+    }
+    .menu {
+        width: 250px;
+        position: fixed;
+        right: 100px;
+    }
+    .soc_ul {
+        width: 300px;
+    }
+    #not_2 {
+        width: 100px;
+    }
+    #not {
+        width: 100px;
+    }
+    #not_1 {
+        width: 100px;
+    }
+    .p_cont {
+        font-size: 10pt;
+    }
+    .inf_p {
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .box_team {
+        margin-left: 0px;
+        width: 500px;
+    }
+    .team {
+        height: 2300px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banner {
+        width: 500px;
+    }
+    .conract_us {
+        width: 500px;
+    }
+    .team {
+        height: 2300px;
+        text-align: center;
+        width: 500px;
+    }
+    .plans{
+        width: 500px;
+    }
+    
+}
+.all{
+    margin: 0 auto; 
+    max-width: 1440px;
+}
+@media only screen and (min-width: 1440px) {
+.menu_block {
+        
+    }
+    .menu {
+        
+        position: fixed;
+        right: 250px;
+    }
+    .all
+    {
+padding-left:  left: 100px;
+    }
+}
+@media only screen and (min-width: 1640px) {
+.menu_block {
+        
+    }
+    .menu {
+        
+        position: fixed;
+        right: 500px;
+    }
+}
+@media only screen and (min-width: 1199px)
+{
+    padding-left: 0px; 
+}
+
+
+
+
+
+.cw {
+    color: white;
+}
+
+.p-w {
+    color: white;
+}

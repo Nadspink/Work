@@ -1,0 +1,248 @@
+@font-face {
+			font-family: "PTSansRegular";
+			src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+			src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+			url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+body{font-family: "PTSansRegular";
+text-align: center;
+margin: 0 auto;
+
+}
+.calendar{
+	margin-left: 25px;
+	margin-top: 25px;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+.harc{
+color: white;
+	
+}
+.harc_li{
+	margin-top: 15px;
+	font-size: 15pt;
+	list-style-image: url(img/marc.png);
+	width: 300px;
+	margin-left: 95px;
+	text-align: left;
+	padding-left: 15px;
+}
+.d_hr{
+	float: right;
+	width: 260px;
+	border-bottom: dashed 2px #fff;
+	margin-top: -35px;
+	margin-right: 10px;
+}
+.stick{
+	font-style: italic;
+font-size: 20pt;
+	color: #fff;
+	margin-top: 25px;
+}
+.name{
+	font-size: 20pt;
+	text-transform: uppercase;
+	color: white;
+}
+.month{
+	background: #2b2e35;
+	color: white;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	font-size: 1.1em
+}
+.day{
+	background: white;
+	height: 95px;
+	line-height: 95px;
+	color: #c2c2c2;
+	font-size:  65pt;
+}
+header{
+	text-align: center;
+	align-content: center;
+}
+hr{
+	width: 950px;
+}
+h5{
+	color: #18374b;
+	font-size: 19pt;
+	margin-bottom: 25px;
+}
+h2{
+	font-size: 31pt;
+	text-transform: uppercase;
+	margin-top: 50px;
+	color: #ff621f;
+}
+h4{
+	text-transform: uppercase;
+	margin-top: -120px;
+	color: #fff;
+	font-size: 29pt;
+float: right;
+	margin-right: 135px;
+	
+}
+h6{text-transform: uppercase;
+	margin-top: -25px;
+	color: #fff;
+	font-size: 23pt;
+float: right;
+	margin-right: 120px;
+margin-bottom: 50px;}
+h3{
+	margin-top: 35px;	
+	text-align: center;
+	font-size: 25pt;
+	color: #020001;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+
+}
+.head_bot{
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.but_head{
+	
+	font-size: 24pt;
+	
+	text-decoration: none;
+	color: white;
+	
+}
+.but_a{
+	width: 390px;
+	height: 55px;
+	background: #ff621f;
+	border-bottom: solid 3px #ff3829;
+	margin-top: 27px;
+	line-height: 55px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.block_1{
+	height: 750px;
+	text-align: center;
+	background: #ff621f;
+	float: 	left;
+	width: 450px;
+}
+
+.block_2{
+	height: 750px;
+	background: #eaeaea;
+	text-align: center;
+	float: 	left;
+	width: 450px;
+}
+.container{
+	margin-top: 25px;
+margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+}
+.time{
+	font-size: 20pt;
+	text-transform: lowercase;
+	margin-bottom: 25px;
+}
+.inf_p {
+	margin-left: 10px;
+	text-align: left;
+	font-size: 22pt;
+	
+}
+.inf_ul{
+	color: black;
+	margin-top: 50px;
+}
+.inf_li{
+	margin-top: 15px;
+	font-size: 15pt;
+	list-style-image: url(img/marc_inf.png);
+	width: 300px;
+	margin-left: 95px;
+	text-align: left;
+	padding-left: 15px;
+}
+.p_format{
+	width: 100%;
+	text-align: center;
+	margin-top: 850px;
+font-size: 22pt;
+	font-style: italic;
+}
+.webinar{
+	text-align: center;
+width: 325px;
+	height: 55px;
+	background: #ff621f;
+	
+	margin-top: 35px;
+	line-height: 55px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.hr_div_ls{
+	border-bottom: dotted 2px rgba(0, 0, 0, 0.67);
+	margin-top: 75px;
+}
+.dl{font-size: 31pt;
+	text-align: center;
+	margin-top: 25px;
+}
+.last_d_p{
+	background: #f8f8f8;
+	margin-top: 50px;
+	width: 100%;
+	height: 170px;
+	font-size: 33px;
+	text-align: center;
+}
+.foto{
+	margin-top: -35px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 1000px;
+	height: 600px;
+	background:  #ff621f;
+
+}
+
+.last_f_p{
+	margin-top: 35px;
+	margin-left: -250px;
+	margin-bottom: 55px;
+	font-size: 33pt;
+	color: #2b2e35;
+}
+.p_footer{
+	font-size: 27px;
+	color: #2b2e35;
+	margin-bottom: 70px;
+	margin-left: -175px;
+	
+}
+.w{
+	text-align: center;
+	width: 650px;
+	margin-bottom: 50px;
+}
+footer{
+	text-align: center;
+}
+h2 {
+	
+}

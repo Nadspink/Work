@@ -1,0 +1,219 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+body {
+  font-family: 'Open Sans Light', arial;
+  background: #eaeaea;
+}
+body .main {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: black;
+  background: #ffffff;
+  border-top: none;
+}
+body .main h1 {
+  font-family: 'Open Sans Bold', arial;
+  font-size: 17pt;
+  margin-top: 35px;
+}
+body .main h2 {
+  text-align: left;
+  font-size: 15pt;
+  margin-left: 25px;
+  margin-top: 75px;
+  display: inline-block;
+}
+body .main img {
+  margin-top: -50px;
+  display: inline-block;
+}
+body .main a:hover {
+  text-decoration: none;
+}
+body .main .butt {
+  margin-bottom: 35px;
+  font-size: 27pt;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+  width: 250px;
+  background: -webkit-linear-gradient(bottom, #36169d, #532ac9);
+  background: linear-gradient(to top, #36169d, #532ac9);
+  text-transform: uppercase;
+  color: white;
+  line-height: 75px;
+}
+body .Attention {
+  margin-top: 70px;
+  line-height: 55px;
+  height: 55px;
+  background: #fbfbfb;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: 1px solid #b5b5b5;
+}
+body .Attention h1 {
+  font-size: 21pt;
+  margin-top: 7px;
+}
+body header {
+  background: #fff;
+  height: 65px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  line-height: 65px;
+  text-align: center;
+  font-size: 17pt;
+  border-bottom: 1px solid #b5b5b5;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+body header img {
+  margin-right: 15px;
+}
+body header .video {
+  text-align: center;
+  height: 65px;
+  border-left: 1px solid #b5b5b5;
+  border-right: 1px solid #b5b5b5;
+}
+body footer p {
+  margin-top: 50px;
+  font-size: 10pt;
+  color: #959595;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  body .main {
+    height: 155px;
+  }
+  body .main .butt {
+    margin-bottom: 15px;
+    font-size: 15pt;
+    margin-top: 10px;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+  }
+  body .main h1 {
+    margin-top: 10px;
+    font-size: 11pt;
+  }
+  body .main h2 {
+    margin-top: 35px;
+    font-size: 10pt;
+  }
+  body .main img {
+    margin-top: -35px;
+    height: 50px;
+    width: 50px;
+  }
+  body .Attention {
+    margin-top: 10px;
+    height: 30px;
+  }
+  body .Attention h1 {
+    line-height: 30px;
+    font-size: 13pt;
+  }
+  body header {
+    height: 35px;
+    line-height: 35px;
+    font-size: 10pt;
+  }
+  body header img {
+    height: 20px;
+    width: 20px;
+  }
+  body header .video {
+    height: 35px;
+  }
+  body footer p {
+    margin-top: 5px;
+    font-size: 6pt;
+  }
+}
+@media only screen and (max-width: 320px) and (max-height: 568px) {
+  body .main {
+    height: 290px;
+  }
+  body .main .butt {
+    font-size: 25pt;
+    margin-top: 25px;
+    height: 70px;
+    width: 215px;
+    line-height: 70px;
+  }
+  body .main h1 {
+    margin-top: 35px;
+    font-size: 13pt;
+  }
+  body .main h2 {
+    margin-top: 55px;
+    font-size: 11pt;
+    margin-left: 10px;
+  }
+  body .main img {
+    margin-top: -25px;
+    height: 45px;
+    width: 45px;
+  }
+  body .Attention {
+    margin-top: 25px;
+    height: 35px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    line-height: 35px;
+  }
+  body .Attention h1 {
+    line-height: 30px;
+    font-size: 13pt;
+  }
+  body header {
+    font-size: 9pt;
+  }
+  body header img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+  body footer p {
+    margin-top: 20px;
+    font-size: 8pt;
+  }
+}
+@media only screen and (max-width: 320px) and (max-height: 480px) {
+  body .main {
+    height: 230px;
+  }
+  body .main .butt {
+    font-size: 25pt;
+    margin-top: 15px;
+    height: 70px;
+    width: 215px;
+    line-height: 70px;
+  }
+  body .main h1 {
+    margin-top: 15px;
+    font-size: 13pt;
+  }
+  body .main h2 {
+    margin-top: 25px;
+    font-size: 11pt;
+    margin-left: 10px;
+  }
+  body .main img {
+    margin-top: -25px;
+    height: 45px;
+    width: 45px;
+  }
+  body .Attention {
+    margin-top: 15px;
+  }
+}
