@@ -1,0 +1,181 @@
+body {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+}
+body ol {
+  text-align: center;
+}
+body .block_t {
+  height: 50px;
+}
+body .main {
+  height: 100px;
+}
+body .al_15 {
+  width: 350px;
+  margin-top: 15px;
+  float: right;
+}
+body .al_15 h5 {
+  margin-left: 10px;
+  float: left;
+  font-size: 16pt;
+}
+body .al_15 h4 {
+  margin-right: 40px;
+  font-size: 14pt;
+  float: right;
+}
+body h6 {
+  margin-top: 15px;
+  float: right;
+  margin-right: 50px;
+}
+body .blocked {
+  width: 50px;
+  height: 50px;
+  background: silver;
+}
+body header {
+  height: 120px;
+  width: 500px;
+  margin-top: 25px;
+}
+body header .fot {
+  position: relative;
+  float: left;
+  height: 120px;
+  width: 120px;
+  background: url(img/foto.png);
+  border-radius: 50%;
+}
+body header .info {
+  position: relative;
+  z-index: 1;
+  margin-top: 5px;
+  float: left;
+}
+body header .info h1 {
+  margin-left: 10px;
+  font-weight: bolder;
+  float: left;
+  font-size: 16pt;
+}
+body header .info h2 {
+  font-size: 12pt;
+  color: #808080;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+body header .stat {
+  font-size: 14px;
+  margin-left: -230px;
+  padding-left: 45px;
+  margin-top: 70px;
+  float: left;
+  height: 44px;
+  width: 355px;
+  border: solid 0.5px #bfbfbf;
+  border-radius: 5px;
+  background: #fffbc8;
+}
+body header .stat p {
+  margin-top: 7px;
+}
+body h6 {
+  margin-top: 10px;
+  margin-right: 55px;
+}
+body .services {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-right: -80px;
+  float: right;
+  width: 321px;
+  height: 110px;
+  border-top: solid 1px #9d9b9b;
+  border-bottom: solid 1px #9d9b9b;
+}
+body .services .bron {
+  line-height: 23px;
+  height: 23px;
+  width: 295px;
+}
+body .services .bron p {
+  font-size: 15px;
+  float: right;
+}
+body .services .bron .gr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 10px;
+  font-size: 13pt;
+  line-height: 23px;
+  float: left;
+  height: 23px;
+  width: 215px;
+  background: #b1e19b;
+}
+body .reviews {
+  background: yellow;
+  width: 500px;
+  margin-top: 250px;
+}
+body .reviews .lik {
+  margin-left: 100px;
+  margin-right: 25px;
+}
+body .reviews p {
+  font-size: 16pt;
+  font-weight: 500;
+  float: left;
+}
+body .reviews a {
+  margin-left: 15px;
+  font-size: 14pt;
+  float: left;
+}
+body .messag {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  width: 400px;
+  background: #f2fbff;
+  height: 100px;
+  font-size: 14pt;
+  color: #000;
+  border: solid 1px rgba(95, 94, 94, 0.42);
+}
+body footer {
+  text-align: center;
+  width: 100%;
+  background: #f2f2f2;
+}
+body footer .bl {
+  height: 10px;
+}
+body input {
+  height: 60px;
+  width: 450px;
+}
+body button {
+  font-size: 16pt;
+  border: none;
+  background: #fdd639;
+  margin-top: 15px;
+  width: 280px;
+  height: 40px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+body button:focus {
+  outline: none;
+}
